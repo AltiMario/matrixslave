@@ -1,4 +1,4 @@
-# matrixslave ver 0.1
+# matrixslave ver 1.0
 It's a slave service (to combine with matrixserver) for processing multiple operations of row * column (of a matrix) 
 
 # Rational
@@ -12,7 +12,7 @@ Matrixslave is
 
 ## Technical Requirements
 
-* Java 7+ / Clojure 1.8 / Leiningen 2.x
+* Java 8+ / Clojure 1.10 / Leiningen 2.x
 
 
 ## Usage  
@@ -21,9 +21,9 @@ Matrixslave is
 
 * To run the app
 
-    $ java -jar matrixslave.jar
+    $ java -jar matrixslave-1.0.jar
 
-- open the browser at http://localhost:3000/v1/slave/health-check to check if everything is fine 
+- open the browser at http://localhost:3001/v1/slave/health-check to check if everything is fine 
 
 - wait for the master calls
 
